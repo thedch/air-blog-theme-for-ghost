@@ -55,10 +55,12 @@
 
 
 body{
-	color: $b-colour;
-	font-family: $b-font;
-	font-weight: $normal;
-	transition:all 0.3s ease;
+	background-color: #fff;
+  color: #303030;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 18px;
+  line-height: 1.45em;
+  text-rendering: optimizeLegibility;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -123,7 +125,7 @@ hr{
 
 
 .site-header{
-	background: $h-colour url(../img/header-bg.jpg) no-repeat center center; 
+	background: $h-colour url(../img/header-bg.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -155,9 +157,9 @@ hr{
 
 
 .profile-image{
-  -webkit-border-radius: 100%; 
-  -moz-border-radius: 100%; 
-  border-radius: 100%; 
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
 }
 
 
@@ -222,7 +224,7 @@ hr{
 	font-weight: $light;
 	font-size: 13px;
 	color: $s-colour;
-	margin-right: 4px; 
+	margin-right: 4px;
 }
 
 .share-buttons li a{
@@ -261,7 +263,7 @@ hr{
 	color: $s-colour;
 	font-size: 14px;
 	margin-bottom: 0;
-	
+
 }
 
 
@@ -282,9 +284,9 @@ hr{
   width: 100px;
   height: 35px;
   display: block;
-  -webkit-border-radius: 3px; 
-  -moz-border-radius: 3px; 
-  border-radius: 3px; 
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
   text-align: center;
   font-family: $h-font;
   font-weight: $light;
@@ -296,13 +298,13 @@ hr{
   	background-color: $h-colour;
   	border-color: $h-colour;
   	color: #FFF;
-  } 
+  }
 }
 
 
 .post .btn{
 	width: 140px;
-	
+
 }
 
 
@@ -356,7 +358,7 @@ hr{
 	margin: 0;
 	padding: 0;
 	font-size: 12px;
-} 
+}
 
 .author p.name{
 	font-size: 14px;
@@ -385,7 +387,7 @@ hr{
 	padding: 5px;
 	font-size: 20px;
 
-	
+
 }
 
 
@@ -459,7 +461,7 @@ body.post-template .site-header h2 .logo{
 	}
 
 	.author{
-		margin-bottom: 60px; 
+		margin-bottom: 60px;
 	}
 
 	.site-header,
