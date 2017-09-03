@@ -31,8 +31,9 @@
 <div class="lateral">
           <aside class="author">
 
-            <img class="profile-image" src="{{asset "img/profile-image.jpg"}}" alt="" />
-            <p class="name">by <strong>Daniel Hunter</strong></p>
+            <!-- <img class="profile-image" src="{{asset "img/profile-image.jpg"}}" alt="" /> -->
+            <a href="{{@blog.url}}"><img class="profile-image" alt="" src="{{asset "img/profile-image.jpg"}}">
+            <p class="name">by <a href="{{@blog.url}}"> <strong>Daniel Hunter</strong></a></p>
             <p class="about">I build robots.</p>
             <p class="address">Mountain View</p>
             <p class="link"><a href="https://drive.google.com/file/d/0Bz4JmewYrDD7NzhBZjV6VVJnbVU/view" target="_blank" title="Resume">Resume</a></p>
