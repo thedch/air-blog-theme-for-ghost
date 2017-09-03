@@ -17,12 +17,7 @@ html {
  * Remove default margin.
  */
 body {
-  background-color: #fff;
-  color: #303030;
-  font-family: 'Libre Baskerville', serif;
-  font-size: 18px;
-  line-height: 1.45em;
-  text-rendering: optimizeLegibility;
+  margin: 0;
 }
 
 /* HTML5 display definitions
@@ -456,10 +451,12 @@ th {
    -----------------------------------------------------------------------------
    -----------------------------------------------------------------------------*/
 body {
-  color: #222222;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-  transition: all 0.3s ease;
+  background-color: #fff;
+  color: #303030;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 18px;
+  /*line-height: 1.45em;*/
+  text-rendering: optimizeLegibility;
 }
 
 h1, h2, h3, h4, h5, h6 {
