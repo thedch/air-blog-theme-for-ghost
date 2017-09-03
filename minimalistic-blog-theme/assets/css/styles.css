@@ -17,7 +17,13 @@ html {
  * Remove default margin.
  */
 body {
-  margin: 0; }
+  background-color: #fff;
+  color: #303030;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 18px;
+  line-height: 1.45em;
+  text-rendering: optimizeLegibility;
+}
 
 /* HTML5 display definitions
 ========================================================================== */
@@ -453,7 +459,8 @@ body {
   color: #222222;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  transition: all 0.3s ease; }
+  transition: all 0.3s ease;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
@@ -535,7 +542,7 @@ hr {
 .profile-image {
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
-  border-radius: 100%; 
+  border-radius: 100%;
   width: 118px;
   height: 118px;
 }
@@ -698,8 +705,8 @@ hr {
   color: #dddddd; }
 
 .author p.link {
-  margin-bottom: 10px; 
-  color: white;  
+  margin-bottom: 10px;
+  color: white;
   margin-top:10px;
   font-size:22px;
   font-family: Roboto;
@@ -752,11 +759,11 @@ body.post-template .site-header h2 .logo {
   position: fixed;
   margin-top: 70px;
   z-index: 1;
-  
+
 }
 @media only screen and (min-width: 1200px) and (max-width: 1799px) {
   .container {
-    width: 100%; } 
+    width: 100%; }
 
   .plane {
     width:300px;
@@ -764,12 +771,12 @@ body.post-template .site-header h2 .logo {
 
 @media only screen and (min-width: 800px) and (max-width: 1199px) {
   .container {
-    width: 100%; } 
+    width: 100%; }
 
   .plane {
     width:250px;
-    margin-top: 20px;} 
-  .content { 
+    margin-top: 20px;}
+  .content {
     width:80%;
     margin-right: 15%;
     margin-top: 5%;}
@@ -777,13 +784,13 @@ body.post-template .site-header h2 .logo {
 
 @media only screen and (min-width: 720px) and (max-width: 799px) {
   .container {
-    width: 100%; } 
+    width: 100%; }
 
   .plane {
     width:200px;
-    margin-top: 20px;} 
+    margin-top: 20px;}
 
-  .content { 
+  .content {
     width:80%;
     margin-right: 15%;
     margin-top: 5%;} }
@@ -808,12 +815,12 @@ body.post-template .site-header h2 .logo {
     width: 90px;
     height: 74px;
     margin: -45px 0 0 -37px;
-    background-size: 90px 74px; } 
+    background-size: 90px 74px; }
   .lateral {
     position: inherit !important;
     width: 100% !important;
     height: 450px !important; }
-  .home { 
+  .home {
     width:100% !important;}
   .post h2 a {
     font-size: 30px !important;}
