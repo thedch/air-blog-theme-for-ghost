@@ -3,26 +3,26 @@
 
         <div class="container clearfix">
           <main role="main" class="content">
-              {{#foreach posts}}  
+              {{#foreach posts}}
               <article class="{{post_class}} post">
                 <h2><a href="{{url}}" title="{{title}}">{{title}}</a></h2>
                 <footer class="post-info">Posted on <span class="post-meta"><time datetime="{{date published_at format="YYYY-MM-DD"}}">{{date published_at format="Do MMMM YYYY"}}</time> {{tags separator=", " prefix="Tagged in "}}</span></footer>
 		<a href="{{url}}">
-                <img src={{image}} /></a>
+                <img src={{img_url feature_image}} /></a>
                 <p>{{excerpt characters="600"}}&hellip;</p>
-                
+
                 <a href="{{url}}" title="{{title}}">Read more &raquo;</a>
               </article>
               {{/foreach}}
 
               {{pagination}}
-             
+
           </main>
-          
+
 
 
 <!--          <aside class="author">
-            
+
             <img class="profile-image" src="{{asset "img/profile-image.jpg"}}" alt="" />
             <p class="name">by <strong>Leônidas V.</strong></p>
             <p class="about">Heavy Linux-user, developer, geek, GNU-GPL v3 compliant.</p>
