@@ -5,7 +5,9 @@
               <div class="tag-title">
                 <p>All articles tagged as:</p>
                 <h1>{{tag.name}}</h1>
+                <a class="btn" href="{{@blog.url}}" title="Back to homepage">&laquo; Back to home</a>
               </div>
+
 
               {{#foreach posts}}
               <article class="{{post_class}} post">
@@ -22,7 +24,10 @@
 
           </main>
           <aside class="author">
-            <a class="btn" href="{{@blog.url}}" title="Back to homepage">&laquo; Back to home</a>
-            <img class="profile-image" src="{{asset "img/profile-image.jpg"}}" alt="" />
+            <!-- <img class="profile-image" src="{{asset "img/profile-image.jpg"}}" alt="" /> -->
+<!--            <p class="name">by <strong>Leônidas V.</strong></p>
+            <p class="about">Heavy Linux-user, developer, geek, GNU-GPL v3 compliant.</p>
+            <p class="address">São Paulo, Brazil.</p>
+            <p class="link"><a href="http://leonidasv.com" title="Leoônidas Villeneuve">leonidasv.com</a></p>
 
         </div>

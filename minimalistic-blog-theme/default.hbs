@@ -31,11 +31,13 @@
 <div class="lateral">
           <aside class="author">
 
-            <img class="profile-image" src="{{asset "img/profile-image.jpg"}}" alt="" />
-            <p class="name">by <strong>Daniel Hunter</strong></p>
+            <!-- <img class="profile-image" src="{{asset "img/profile-image.jpg"}}" alt="" /> -->
+            <a href="{{@blog.url}}"><img class="profile-image" alt="" src="{{asset "img/profile-image.jpg"}}">
+            <p class="name">by <a href="{{@blog.url}}"> <strong>Daniel Hunter</strong></a></p>
             <p class="about">I build robots.</p>
             <p class="address">Mountain View</p>
             <p class="link"><a href="https://drive.google.com/file/d/0Bz4JmewYrDD7NzhBZjV6VVJnbVU/view" target="_blank" title="Resume">Resume</a></p>
+            <p class="link"><a href="mailto:officialdanielhunter@gmail.com" target="_blank" title="officialdanielhunter@gmail.com">Email Me</a></p>
 
             <ul class="social">
               <!-- <li><a class="icon-facebook-squared" href="http://facebook.com/leonidasvilleneuve" target="_blank" title="Facebook"></a></li> -->
@@ -55,15 +57,13 @@
           <h2><a class="logo ir" href="{{@blog.url}}" title="{{@blog.title}}">{{@blog.title}}</a></h2>
         </header>
 
-
            {{{body}}}
-
 
         <footer class="main-footer">
           <div class="container clearfix">
 
               <!-- <a class="icon-rss" href="{{@blog.url}}/rss/" title="RSS Feed"></a> -->
-              <h5>Contact: officialdanielhunter@gmail.com</h5>
+              <p>Contact: officialdanielhunter@gmail.com</p>
               <p>All content copyright Daniel Hunter &copy; 2017. All rights reserved.</p>
               <p>Proudly published with Ghost. Theme modified by Daniel Hunter, designed by <a href="http://leonidasv.com" title="Leonidas Villeneuve">Leonidas Villeneuve</a>, based on concept by <a href="http://blog.rriegger.com/" title="Raphael Riegger - UI/UX Designer">Raphael Riegger</a>.</p>
 
