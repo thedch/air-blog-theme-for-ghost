@@ -466,10 +466,11 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
-  color: #cccccc;
+  color: #0645AD;
   transition: all 0.3s ease; }
-  a:hover {
-    color: #222222; }
+  a:not(.nohover):hover {
+    text-decoration: underline;
+  }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: #222222; }
