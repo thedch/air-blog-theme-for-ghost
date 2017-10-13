@@ -1,7 +1,7 @@
 # Air Theme
 
 A minimalistic blog theme for [Ghost](http://github.com/tryghost/ghost/) with a
-simple sidebar, Forked from [leonidasv](https://github.com/leonidasv/air-blog-theme-for-ghost).
+simple sidebar, forked from [leonidasv](https://github.com/leonidasv/air-blog-theme-for-ghost).
 I've added several features, including code highlighting, fixing glitches on the
 tag page, and updating the body font. The code is fairly simple thanks to
 Handlebars, so feel free to modify it for your own use -- PRs welcome!
