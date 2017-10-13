@@ -9,7 +9,11 @@
                 <h1>{{title}}</h1>
                 <!-- <h1><a href="{{url}}" title="{{title}}">{{title}}</a></h1> -->
                 <footer class="post-info">Published on <span class="post-meta"><time datetime="{{date published_at format="YYYY-MM-DD"}}">{{date published_at format="Do MMMM YYYY"}}</time> {{tags separator=", " prefix= "// tagged in "}}</span></footer>
-                <img src={{img_url feature_image}} /></a>
+
+                {{#if feature_image}}
+                  <img src={{img_url feature_image}} />
+                {{/if}}
+
                 {{content}}
 
               </article>
