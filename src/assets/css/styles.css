@@ -466,7 +466,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
-  color: #0645AD;
+  color: #009bff;
   transition: all 0.3s ease; }
   a:not(.nohover):hover {
     text-decoration: underline;
