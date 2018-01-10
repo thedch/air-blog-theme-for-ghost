@@ -571,7 +571,13 @@ hr {
 
 .post img {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+}
+
+.post-full-content img[src$="#full"] {
+    max-width: none;
+    width: 100vw;
+}
 
 .post-info {
   color: #a2a2a2;
