@@ -3,7 +3,7 @@
 A minimalistic blog theme for [Ghost](http://github.com/tryghost/ghost/) with a
 simple sidebar, forked from [leonidasv](https://github.com/leonidasv/air-blog-theme-for-ghost).
 I've added several features, including code highlighting, fixing glitches on the
-tag page, and updating the body font. The code is fairly simple thanks to
+tag page, and updated the body font. The code is fairly simple thanks to
 Handlebars, so feel free to modify it for your own use -- PRs welcome!
 
 ## How to install:
