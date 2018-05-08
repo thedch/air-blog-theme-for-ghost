@@ -4,8 +4,8 @@
           <main role="main" class="content">
               {{#foreach posts}}
               <article class="{{post_class}} post">
-                <h2><a href="{{url}}" title="{{title}}">{{title}}</a></h2>
-                <footer class="post-info">Posted on <span class="post-meta"><time datetime="{{date published_at format="YYYY-MM-DD"}}">{{date published_at format="MMMM Do YYYY"}}</time> {{tags separator=", " prefix="// tagged in "}}</span></footer>
+                <h3><a href="{{url}}" title="{{title}}">{{title}}</a></h3>
+                <footer class="post-info">Published on <span class="post-meta"><time datetime="{{date published_at format="YYYY-MM-DD"}}">{{date published_at format="MMMM Do YYYY"}}</time> {{tags separator=", " prefix="// tagged in "}}</span></footer>
 
                 {{#if feature_image}}
                   <a href="{{url}}"><img src={{img_url feature_image}} /></a>
