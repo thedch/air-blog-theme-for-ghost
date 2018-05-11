@@ -465,11 +465,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold; }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #009bff;
-  transition: all 0.3s ease; }
+  transition: all 0.3s ease;
+}
   a:not(.nohover):hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -496,7 +497,7 @@ hr {
 /*  width: 25%;
   float: left;
   margin: 20px 5% 0px 5%; }*/
-  margin-top: 50%;
+  margin-top: 20%;
 }
 
 .content {
