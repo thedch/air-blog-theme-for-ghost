@@ -707,7 +707,7 @@ hr {
   width: 80%;
   font-size: 16px;
   margin: 10px auto;
-  color: #dddddd; }
+  color: white; }
 
 .author p.link {
   margin-bottom: 10px;
@@ -727,6 +727,7 @@ hr {
 
 .author ul.social li a {
   padding: 5px;
+  text-decoration: none;
   font-size: 20px; }
 
 .main-footer {
@@ -859,16 +860,17 @@ body.post-template .site-header h2 .logo {
   clear: both; }
 
 .lateral {
-/*  background-color: #072035; */
+/*  background-color: #202020; */
   height: 100%;
   position: fixed;
   width: 25%;
+
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0e3d66+0,072035+100 */
-  background: #0e3d66; /* Old browsers */
-  background: -moz-linear-gradient(top,  #0e3d66 0%, #072035 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  #0e3d66 0%,#072035 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  #0e3d66 0%,#072035 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e3d66', endColorstr='#072035',GradientType=0 ); /* IE6-9 */
+  background: #202020; /* Old browsers */
+  background: -moz-linear-gradient(top,  #202020 0%, #202020 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #202020 0%,#202020 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #202020 0%,#202020 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#202020', endColorstr='#202020',GradientType=0 ); /* IE6-9 */
 
 }
 
