@@ -497,7 +497,7 @@ hr {
 /*  width: 25%;
   float: left;
   margin: 20px 5% 0px 5%; }*/
-  margin-top: 20%;
+  margin-top: 40%;
 }
 
 .content {
@@ -825,7 +825,8 @@ body.post-template .site-header h2 .logo {
   .lateral {
     position: inherit !important;
     width: 100% !important;
-    height: 450px !important; }
+    padding-bottom: 50px;
+  }
   .home {
     width:100% !important;}
   .post h2 a {
