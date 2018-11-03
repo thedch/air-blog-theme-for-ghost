@@ -501,10 +501,9 @@ hr {
 }
 
 .content {
-  width: 50%;
-  margin-right: 25%;
-  margin-top: 5%;
-  float: right; }
+  width: 65%;
+  margin: 10% auto 0 auto; /* top, right, bottom, left */
+}
 
 .site-header {
   display: none;
